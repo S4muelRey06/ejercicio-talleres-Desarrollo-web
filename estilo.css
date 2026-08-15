@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(102, 62, 62);
+    color:beige;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#titulo-galeria{
+    letter-spacing: 3px;
+    border-bottom: 5px gray;
+    padding-bottom: 10px;
+}
+
+.ficha{
+    background-color: black;
+    padding: 20px;
+    color:beige;
+    margin-top: 10px;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 70px;
+    width: 450px;
+}
+
+.nombre{
+    color:goldenrod;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.clase{
+    color: lightgray;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.stats{
+    list-style: none;
+    padding-inline: 4px;
+    display: /*grid*/flex;
+    /*grid-template-columns: repeat(3, 1fr)*/
+    gap: 50px;
+    justify-content: space-between ;
+}
+
+.vida{
+    color:blueviolet;
+    font-weight: bold;
+    text-align: center;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color:burlywood
+}
+
+[data-tipo="villano"]{
+    border-left: 5px solid red;
+}
+
+[data-tipo="heroe"]{
+    border-left: 5px solid cyan;
+}
+.f{
+    width: 400px;
+}
+
+.redes-pagina p{
+    font-style: italic;
+}
+
+.redes-pagina > p{
+    background-color: rgb(93, 54, 9);
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+h3 + p {
+      margin-top: 16px;
+      border-top: 2px solid cornsilk;
+      padding-top: 12px;
+}
+h3 ~ p {
+      color: #d4a537;
+      font-weight: bold;
+    }
+
+.resaltado{
+    border: 5px solid gold;
+}
+.borde-redondeado{
+    border-radius: 12px;
+}
+
+
+

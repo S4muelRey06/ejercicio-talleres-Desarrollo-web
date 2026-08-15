@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personajes de clashito</title>
+<link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <h1 id="titulo-galeria">Galeria de personajes</h1>
+    <a href="index.html"> Inicio</a>
+
+    <article class="ficha" data-tipo="villano">
+        <img class="f" src="img/fantasma-real-background.jpg" alt="Fantasma cinematico">
+        <h2 class="nombre">Fantasma real</h2>
+        <p class="clase">Tropa terrestre</p>
+        
+        <h3>Estadisticas:</h3>
+
+        <ul class="stats">
+            <li>Fuerza: 100</li>
+            <li>Defensa 50</li>
+            <li>Trabajo en equipo:5</li>
+        </ul>
+
+        <p class="vida">Puntos de vida: 150</p>
+
+    </article>
+    <article class="ficha" data-tipo="heroe">
+        <img class="f" src="img/Inferno_Dragon_info.webp" alt="Fantasma cinematico">
+        <h2 class="nombre">Dragon Infernal</h2>
+        <p class="clase">Tropa aerea</p>
+        
+        <h3>Estadisticas:</h3>
+
+        <ul class="stats">
+            <li>Fuerza: 30</li>
+            <li>Defensa 30</li>
+            <li>Trabajo en equipo:50</li>
+        </ul>
+
+        <p class="vida">Puntos de vida: 80</p>
+
+    </article>
+
+    <article class="ficha" data-tipo="heroe">
+        <img class="f" src="img/450_1000.webp" alt="Fantasma cinematico">
+        <h2 class="nombre">Megacaballero</h2>
+        <p class="clase">Tropa tanque</p>
+        
+        <h3>Estadisticas:</h3>
+
+        <ul class="stats">
+            <li>Fuerza: 200</li>
+            <li>Defensa 100</li>
+            <li>Trabajo en equipo:100</li>
+        </ul>
+
+        <p class="vida">Puntos de vida: 300</p>
+
+    </article>
+
+    <article class="ficha" data-tipo="villano">
+        <img class="f" src="img/p37e3y912fxf1.jpeg" alt="Fantasma cinematico">
+        <h2 class="nombre">Bruja</h2>
+        <p class="clase">Tropa mágica</p>
+        
+        <h3>Estadisticas:</h3>
+
+        <ul class="stats">
+            <li>Fuerza: 50</li>
+            <li>Defensa 100</li>
+            <li>Trabajo en equipo:150</li>
+        </ul>
+
+        <p class="vida">Puntos de vida: 300</p>
+
+    </article>
+    <div class="redes-pagina">
+        <a href="#" class="red-facebook">Facebook</a>
+        <h3>Conecta con nosotros</h3>
+        <!--<div></div>Si hay un elemento en el medio, el combinador + deja de funcionar-->
+        <p>
+            Síguenos en nuestras redes
+        </p>
+        <a href="#" class="red-Youtube">Youtube</a>
+        <p>Estamos activos</p>
+        <a href="#" class="red-x">X</a>
+        <p>Respuestas rápidas garantizadas</p><!--El combinador hermano general funciona para todos los hermanos sean adyacentes o no-->
+         <span>
+                <p>Parrafo que no es hijo directo</p><!--El combinador hijo directo (>) no aplica sobre este texto-->
+        </span>
+        <span><p>Te esperamos en este gran mundo</p></span> <!--No le importa cuantos niveles haya abajo. Es para todos los hijos-->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
