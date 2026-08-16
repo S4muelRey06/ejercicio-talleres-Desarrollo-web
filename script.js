@@ -33,7 +33,7 @@ window.onload = function () {
 
     for (ficha of fichas) {
         ficha.addEventListener("mouseover", function () {
-            this.style.backgroundColor = "rgb(93, 54, 9)";
+            this.style.backgroundColor = "brown";
         })
         ficha.addEventListener("mouseout", function () {
             this.style.backgroundColor = "black"
@@ -63,8 +63,6 @@ window.onload = function () {
         botonFavorito.textContent = "⭐Favorito";
         botonFavorito.style.color = "red";
         botonFavorito.style.backgroundColor = "white";
-        botonFavorito.style.width = "100px";
-        botonFavorito.style.height = "50px";
         botonFavorito.style.display = "flex";
         botonFavorito.style.justifyContent = "center";
         botonFavorito.style.alignItems = "center";

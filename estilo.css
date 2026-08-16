@@ -15,11 +15,9 @@ body{
     padding: 20px;
     color:beige;
     margin-top: 10px;
-    height: fit-content;
-    width: fit-content;
     border-radius: 10px;
-    padding: 70px;
-    width: 450px;
+    height: 100%;/*Se cambiaron los tamaños fijos. Para que el grid lo organizara solo*/
+    width: 100%;/*Tambien se quitó el padding interno*/
 }
 
 .nombre{
@@ -41,8 +39,9 @@ body{
     padding-inline: 4px;
     display: /*grid*/flex;
     /*grid-template-columns: repeat(3, 1fr)*/
-    gap: 50px;
+    gap: 25px;
     justify-content: space-between ;
+    align-items: center;
 }
 
 .vida{
@@ -59,6 +58,8 @@ a:hover{
     color:burlywood
 }
 
+
+
 [data-tipo="villano"]{
     border-left: 5px solid red;
 }
@@ -66,9 +67,12 @@ a:hover{
 [data-tipo="heroe"]{
     border-left: 5px solid cyan;
 }
+/*SE BORRÓ LA CLASE .F QUE MANTENÍA EL ANCHO DE LA IMAGEN
 .f{
     width: 400px;
 }
+
+*/
 
 .redes-pagina p{
     font-style: italic;
@@ -95,6 +99,62 @@ h3 ~ p {
 .borde-redondeado{
     border-radius: 12px;
 }
+/*
+.row > *{
+    border: 1px solid black
+}*/
 
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
 
+.navbar-brand{
+    background-color: brown;
+    color:antiquewhite;
 
+}
+.navbar-toggler{
+    background-color: brown;
+    color:antiquewhite;
+
+}
+.nav-link{
+    color:azure;
+    display:flex;
+    justify-content: center;
+
+}
+.nav-link:hover{
+    color:maroon;
+    display:flex;
+    justify-content: center;
+}
+
+.carousel-caption h5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;                       
+    color: azure;                        
+    text-transform: uppercase;  
+    background-color: maroon;
+}
+
+.carousel-caption p {
+    font-family: 'Times new Roman',Times, serif ;       
+    font-size: 25px;                     
+    color: #FFFFFF;                       
+    font-weight: bold;
+}
+
+.carousel-indicators button{
+    color: burlywood;
+}
+.carousel-control-prev:hover{
+    color: azure;
+    background-color: maroon;
+}
+.carousel-control-next:hover{
+    color: azure;
+    background-color: maroon;
+}
